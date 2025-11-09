@@ -20,7 +20,7 @@ app.use(cors({
     'http://localhost:8080',
     'http://localhost:5173', 
     'http://localhost:3000',
-    'https://symptra-health-frontend.vercel.app', // Replace with your actual Vercel URL
+    'https://symptra-health-frontend-main-rust.vercel.app', // Replace with your actual Vercel URL
     process.env.FRONTEND_URL
   ].filter(Boolean), // Remove undefined values
   credentials: true,
