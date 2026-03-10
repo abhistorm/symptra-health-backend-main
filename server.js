@@ -20,6 +20,8 @@ app.use(cors({
     'http://localhost:8080',
     'http://localhost:5173', 
     'http://localhost:3000',
+    'https://livabhiproductions.in',
+    'https://www.livabhiproductions.in',
     'https://symptra-health-frontend-main-rust.vercel.app', // Replace with your actual Vercel URL
     process.env.FRONTEND_URL
   ].filter(Boolean), // Remove undefined values
